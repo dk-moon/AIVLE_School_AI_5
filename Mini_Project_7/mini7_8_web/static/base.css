@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'yg-jalnan', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    cursor: url("https://img.icons8.com/?size=100&id=oqUz7NwX49jl&format=png&color=000000") 5 5, progress;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a:hover {
+    cursor: url("https://img.icons8.com/?size=100&id=oqUz7NwX49jl&format=png&color=000000") 5 5, progress;
+}
+
+/* Header styles */
+header {
+    font-family: 'yg-jalnan', cursive;
+    background-color: #96ccff;
+    padding: 10px 0;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: darkgray;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-family: 'yg-jalnan', cursive;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Form styles */
+form {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+form p {
+    margin-bottom: 15px;
+}
+
+form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ol a:hover {
+    color: #0056b3
+}
+
+p {
+    color: grey;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-family: 'yg-jalnan', cursive;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header nav ul li {
+        margin: 0 10px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}

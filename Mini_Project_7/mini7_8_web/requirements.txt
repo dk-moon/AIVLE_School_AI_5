@@ -1,0 +1,6 @@
+pandas
+numpy
+Django
+scikit-learn
+pyjwt
+django-allauth
